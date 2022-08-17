@@ -43,9 +43,9 @@ const Work = () => {
     <>
       <WorkBody id="work">
         <WorkContainer style={{ alignSelf: "flex-start" }}>
-          <StyledHeading>Some things I've Built</StyledHeading>
+          <StyledHeading>Updating My Work. Please Come Back Later</StyledHeading>
         </WorkContainer>
-        <div style={{ height: 40 }}></div>
+        {/* <div style={{ height: 40 }}></div>
         <Project
           invertedOrientation={false}
           projectName="Discord Clone"
@@ -82,7 +82,7 @@ const Work = () => {
           >
             Github
           </a>
-        </h1>
+        </h1> */}
       </WorkBody>
     </>
   );

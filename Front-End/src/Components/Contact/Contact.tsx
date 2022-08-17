@@ -56,7 +56,7 @@ const Contact = () => {
     const port = "3999";
     const backendURL = "/test"
 
-    const response = await fetch("https://mruzunov.com:" + port + backendURL, {
+    const response = await fetch(":" + port + backendURL, {
       method: "POST",
       headers: {
         "Content-type": "application/json",

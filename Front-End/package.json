@@ -24,12 +24,14 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://mruzunov.com/",
+  "homepage": "https://Pratik733.github.io/Portfolio-Website",
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -51,6 +53,7 @@
   "devDependencies": {
     "@types/react-scroll": "^1.8.3",
     "@types/react-tagcloud": "^1.1.7",
-    "@types/styled-components": "^5.1.22"
+    "@types/styled-components": "^5.1.22",
+    "gh-pages": "^4.0.0"
   }
 }
