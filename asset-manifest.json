@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/Portfolio-Website/static/css/main.dd18bfd3.css",
-    "main.js": "/Portfolio-Website/static/js/main.82798797.js",
+    "main.js": "/Portfolio-Website/static/js/main.452ea173.js",
     "static/js/820.a197c978.chunk.js": "/Portfolio-Website/static/js/820.a197c978.chunk.js",
     "static/media/Airline Reservation System.mp4": "/Portfolio-Website/static/media/Airline Reservation System.31f26674810e9ced3e74.mp4",
     "static/media/AI News bot.mp4": "/Portfolio-Website/static/media/AI News bot.16b2fcaaf7d1d59ffc81.mp4",
+    "static/media/Age&GenderDetection.mp4": "/Portfolio-Website/static/media/Age&GenderDetection.cea4f161bebc2bb13808.mp4",
     "static/media/Laptop Price Prediction.mp4": "/Portfolio-Website/static/media/Laptop Price Prediction.427226a25fd0b52aee83.mp4",
     "static/media/memoji.png": "/Portfolio-Website/static/media/memoji.5e104a0c9bfa9e64dff2.png",
     "static/media/Photo.jpg": "/Portfolio-Website/static/media/Photo.ca1f86e8194e7c9c98ac.jpg",
@@ -12,11 +13,11 @@
     "static/media/logo.png": "/Portfolio-Website/static/media/logo.00275fdef9d8a97bc460.png",
     "index.html": "/Portfolio-Website/index.html",
     "main.dd18bfd3.css.map": "/Portfolio-Website/static/css/main.dd18bfd3.css.map",
-    "main.82798797.js.map": "/Portfolio-Website/static/js/main.82798797.js.map",
+    "main.452ea173.js.map": "/Portfolio-Website/static/js/main.452ea173.js.map",
     "820.a197c978.chunk.js.map": "/Portfolio-Website/static/js/820.a197c978.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dd18bfd3.css",
-    "static/js/main.82798797.js"
+    "static/js/main.452ea173.js"
   ]
 }
