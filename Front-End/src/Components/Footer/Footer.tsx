@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <FooterBody>
-        <FooterText>Designed and Developed by Martin Uzunov</FooterText>
+        <FooterText>Designed and Developed by Pratik Tayade</FooterText>
         <FooterText>© Copyright 2022. All rights reserved</FooterText>
       </FooterBody>
     </>

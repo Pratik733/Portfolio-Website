@@ -7,13 +7,13 @@ const Sidebar = () => {
   return (
     <>
       <SidebarBody>
-        <SocialIcon href="mailto:martiuz77@gmail.com">
+        <SocialIcon href="mailto:pratik.tayade733@gmail.com">
           <FiMail size={iconSize} />
         </SocialIcon>
-        <SocialIcon href="https://github.com/MartinUzunov">
+        <SocialIcon href="https://github.com/Pratik733">
           <FiGithub size={iconSize} />
         </SocialIcon>
-        <SocialIcon href="https://www.linkedin.com/in/martin-uzunov/">
+        <SocialIcon href="https://www.linkedin.com/in/pratik-tayade-48407b15a/">
           <FiLinkedin size={iconSize} />
         </SocialIcon>
         <Line />

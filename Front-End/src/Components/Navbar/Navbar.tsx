@@ -22,7 +22,7 @@ const Navbar = (props: NavbarProps) => {
   return (
     <Nav>
       <NavContainer>
-        <NavLogo to="/" onClick={toTop} />
+        {/* <NavLogo to="/" onClick={toTop} /> */}
         <MobileMenuIcon onClick={props.toggle}>
           <FaBars />
         </MobileMenuIcon>

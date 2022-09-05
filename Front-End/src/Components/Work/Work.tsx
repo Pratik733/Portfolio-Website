@@ -1,78 +1,78 @@
 import Project from "../Project/Project";
 import { WorkBody, WorkContainer } from "./WorkElements";
 import { StyledHeading } from "../About/AboutElements";
-import AlgorithmVisualization from "./../../Assets/AlgorithmVisualization.mp4";
-import Sudoku from "./../../Assets/Sudoku.mp4";
-import Minesweeper from "./../../Assets/Minesweeper.mp4";
-import Discord from "./../../Assets/Discord.mp4";
+import AiNewsBot from "./../../Assets/AI News bot.mp4";
+import Airline from "./../../Assets/Airline Reservation System.mp4";
+import LaptopPrice from "./../../Assets/Laptop Price Prediction.mp4";
+import AgeGenderDetection from "./../../Assets/Age&GenderDetection.mp4";
 
 const Work = () => {
-  const discordTechnologies: string[] = [
-    "Java",
-    "JavaFX",
-    "RichTextFX",
-    "IntelliJ IDEA",
+  const ageGenderDetection: string[] = [
+    "Python",
+    "Machine Learning",
+    "AI",
+    "CNN",
+    "OpenCV",
+    "Streamlit",
+  ];
+
+  const AiNewsVoiceBot: string[] = [
+    "API integration",
+    "Alan Ai",
+    "HTML",
+    "React.js",
+    "CSS",
+    "JavaScript",
+  ];
+
+  const AirlineRes: string[] = [
+    "HTML",
+    "CSS",
+    "JavaScript",
     "MySQL",
-    "Object Oriented Design",
-    "Client-Server",
   ];
 
-  const algorithmVisualizationTechnologies: string[] = [
-    "Python",
-    "PyGame",
-    "Breadth-First Search",
-    "A-Star",
-  ];
-
-  const sudokuTechnologies: string[] = [
-    "Java",
-    "JavaFX",
-    "IntelliJ IDEA",
-    "Object Oriented Design",
-    "Remote Method Invocation",
-  ];
-
-  const minesweeperTechnologies: string[] = [
-    "Python",
-    "PyGame",
-    "Object Oriented Design",
-    "VS Code",
+  const LaptopPricePred: string[] = [
+    "Data Science",
+    "Regression Models",
+    "Machine Learning",
+    "Prediction Model",
   ];
 
   return (
     <>
       <WorkBody id="work">
         <WorkContainer style={{ alignSelf: "flex-start" }}>
-          <StyledHeading>Updating My Work. Please Come Back Later</StyledHeading>
+          <StyledHeading>Some of My Projects/Work</StyledHeading>
         </WorkContainer>
-        {/* <div style={{ height: 40 }}></div>
+        <div style={{ height: 40 }}></div>
         <Project
           invertedOrientation={false}
-          projectName="Discord Clone"
-          projectDescription="A fully functional Discord clone implemented in Java with the help of the JavaFX library. The application implements the Client-Server model and is using MySQL as a database. The user can create an account or log in if an account already exists, add other users as friends, create groups, invite users to the group, add categories and channels to the groups, send personal and group messages, change personal and group profile photos, block users, change his activity status and see friends activity status."
-          video={Discord}
-          stackItems={discordTechnologies}
+          projectName="Age and Gender Detection"
+          projectDescription="Used Deep Learning to accurately identify the gender and age of a person from a single image of a face. The predicted gender may be one of ‘Male’ and ‘Female’, and the predicted age may be one of the following ranges- (0–2), (4–6), (8–12), (15–20), (25–32), (38–43), (48–53), (60–100)."
+          video={AgeGenderDetection}
+          stackItems={ageGenderDetection}
         ></Project>
         <Project
           invertedOrientation={true}
-          projectName="Algorithm Visualizer"
-          projectDescription="Algorithm visualization illustrates how algorithms work in a graphical way. It aims to simplify and deepen the understanding of the algorithm's operation. Currently, two algorithms are implemented: Breadth-First Search and A-Star. The application allows the user to draw 'walls', set starting and ending points, and reset the board."
-          video={AlgorithmVisualization}
-          stackItems={algorithmVisualizationTechnologies}
+          projectName="AI News bot"
+          projectDescription="Application using Alan AI. Alan AI is a revolutionary speech recognition software that allows you to add voice capabilities to your applications. It allows you to control absolutely everything in the app using your voice."
+          video={AiNewsBot}
+          stackItems={AiNewsVoiceBot}
         ></Project>
         <Project
           invertedOrientation={false}
-          projectName="Sudoku"
-          projectDescription="The classic Sudoku game implemented in Java with the help of the JavaFX library. The application implements the Remote Method Invocation model. The user can use both the mouse and the keyboard for input, choose the difficulty level, take notes, undo and redo moves and request a solution to the puzzle from the server."
-          video={Sudoku}
-          stackItems={sudokuTechnologies}
+          projectName="Online Flight Reservation System"
+          projectDescription="Online Flight Reservation System is a web application that helps the commuters to book flight ticket online."
+          video={Airline}
+          stackItems={AirlineRes}
         ></Project>
         <Project
           invertedOrientation={true}
-          projectName="Minesweeper"
-          projectDescription="The Windows XP version of the Minesweeper implemented in PyGame. The mines are randomly placed and then the whole board is filled with unflipped blocks. The user can reset the board at any time by pressing the emoji button."
-          video={Minesweeper}
-          stackItems={minesweeperTechnologies}
+          projectName="Laptop Price Prediction"
+          projectDescription="The problem statement is that if any user wants to buy a laptop then our application should be compatible to provide a tentative price of laptop according to the user configurations. Although it looks like a simple project or just developing a model, the dataset we have is noisy and needs lots of feature engineering, and preprocessing that will drive your interest in developing this project."
+          video={LaptopPrice}
+          stackItems={LaptopPricePred}
         ></Project>
         <h1 style={{ color: "white", paddingBottom: "1.2em" }}>
           You can check more of my work in&nbsp;
@@ -82,7 +82,7 @@ const Work = () => {
           >
             Github
           </a>
-        </h1> */}
+        </h1>
       </WorkBody>
     </>
   );
